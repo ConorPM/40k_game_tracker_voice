@@ -16,7 +16,3 @@ class Tracker:
             self.player2_score = new_score
         else:
             print("Player not valid")
-
-
-t = Tracker("Conor", "Kareem")
-print(t.player1, t.player1_score)
